@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+
+<html>
+	
+<head>
+		
+<title>home page</title>
+		
+<link rel="stylesheet" href="my.css">
+
+	</head>
+
+	<body >
+	 
+      <div class = "alignment">
+	
+	<h1><i>Online doctor appointment<br></i></h1>
+		
+	<a href = "viewdoctor.php" class="w3-btn w3-black">Doctors</a>&nbsp;
+
+	<a href = "book.html" class="w3-btn w3-black">Book appointment</a>&nbsp;
+
+	<a href = "feedback.html" class="w3-btn w3-black">Feedback</a>&nbsp;
+	
+	<a href = "patient.html" class="w3-btn w3-black">Sign out</a>&nbsp;
+			</br>
+	
+	</br>
+	
+	<img src = "images/doctors.jpg" height= "250px" width ="500px" atl="image not found"/>
+	
+	<h2><i>Welcome to online doctor appointment</i></h2>
+        
+       <form method="post" action="feedback.php" class = "align">
+       
+<label for="doctorname"><b> Doctor Name :</b></label>
+     
+       <input type="text" id="doctorname" name="doctorname" /><br />
+
+ 
+<label for="email"><b> Doctor emailid :</b></label>
+     
+       <input type="text" id="email" name="email" /><br />
+ 
+     
+<label for="feedback"><b>feedback:</b></label>
+   
+       <textarea type="text" id="feedback" name="feedback" rows= "8" cols = "40"/></textarea><br />
+ 
+
+<label for="sat">Are you satisfied</label>
+      
+       Yes <input id="sat" name="sat" type="radio" value="yes" />
+ 
+       No <input id="sat" name="sat" type="radio" value="no" /><br />
+
+  
+      <input type="submit" name="submit" value="Submit"/>
+    
+    </form>
+	
+	</div>
+		
+</body>
+
+</html>

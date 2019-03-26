@@ -1,0 +1,10 @@
+<?php
+ $email = $_POST['email'];
+ 
+ 
+ $dbc = mysqli_connect('Localhost', 'root', '', 'doctor_appointment')
+ or die('Error connecting to MySQL server.');
+ 
+ $query = "DELETE * FROM do WHERE email = '$email' AND password = '$password'";
+ $result = mysqli_query($dbc, $query)
+ or die('Error querying database.');
